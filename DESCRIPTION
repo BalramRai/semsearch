@@ -4,7 +4,7 @@ Title: This package does semantic search for positive and negative words in a te
 Version: 1
 Author: Balram Rai
 Maintainer: Balram Rai
-Description: The package can provide summary measures for positive and negative search    
+Description: The package can provide summary measures including the semantic ratio for positive and negative search    
             for a text file or document based on a set of negative and positive words     
             and phrases   
 License: MIT
