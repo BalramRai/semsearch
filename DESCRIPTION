@@ -1,0 +1,13 @@
+Package: semsearch
+Type: Package
+Title: This package does semantic search for positive and negative words
+Version: 1
+Author: Balram Rai
+Maintainer: Balram Rai
+Description: The package can provide summary measures for positive and negative search    
+            for a text file or document based on a set of negative and positive words     
+            and phrases   
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
