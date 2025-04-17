@@ -1,6 +1,6 @@
 Package: semsearch
 Type: Package
-Title: This package does semantic search for positive and negative words
+Title: This package does semantic search for positive and negative words in a text document
 Version: 1
 Author: Balram Rai
 Maintainer: Balram Rai

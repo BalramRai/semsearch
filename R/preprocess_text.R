@@ -1,6 +1,6 @@
 #' Preprocess Text
 #'
-#' This function reads a text document, converts it to lowercase, removes punctuation, and splits it into words.
+#' This function reads a text document, converts it to lowercase, removes punctuation, and splits it into a vector of cleaned words.
 #'
 #' @param file_path Path to the text file (TXT).
 #' @return A vector of cleaned and processed words.
