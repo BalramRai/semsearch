@@ -5,9 +5,9 @@
 #' It counts how many positive and negative words are present, and
 #' calculates the ratio of positive to negative words.
 #'
-#' @param word_vector A character vector containing all the words from the document.
-#' @param positive_vector A character vector of positive sentiment words or prefixes
-#' @param negative_vector A character vector of negative sentiment words or prefixes
+#' @param word A character vector containing all the words from the document.
+#' @param positive A character vector of positive sentiment words or prefixes
+#' @param negative A character vector of negative sentiment words or prefixes
 #'
 #' @return A list containing:
 #' \describe{
@@ -25,13 +25,13 @@
 #' summarize_text(word_vector, positive_words, negative_words)
 #'
 #' @export
-summarize_text <- function(word_vector, positive_vector, negative_vector) {
+summarize_text <- function(word, positive, negative) {
 
-  positive_count <- match_sentiment_words(word_vector, positive_vector) # counts positive words
+  positive_count <- match_text(word, positive) # counts positive words
 
-  negative_count <- match_sentiment_words(word_vector, negative_vector) # counts negative words
+  negative_count <- match_text(word_vector, negative) # counts negative words
 
-  total_words <- length(word_vector) # counts total words
+  total_words <- length(word) # counts total words
 
   if (negative_count == 0) {
     ratio <- Inf # handles the denominator to be 0
