@@ -6,8 +6,8 @@
 #' calculates the ratio of positive to negative words.
 #'
 #' @param word A character vector containing all the words from the document.
-#' @param positive A character vector of positive sentiment words or prefixes
-#' @param negative A character vector of negative sentiment words or prefixes
+#' @param positive A character vector of positive sentiment words or prefixes ending with a '*'
+#' @param negative A character vector of negative sentiment words or prefixes ending with a '*'
 #'
 #' @return A list containing:
 #' \describe{

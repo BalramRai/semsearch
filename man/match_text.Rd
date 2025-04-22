@@ -9,7 +9,7 @@ match_text(word_vector, sentiment_vector)
 \arguments{
 \item{word_vector}{A character vector of words from the document.}
 
-\item{sentiment_vector}{A character vector of sentiment words including prefix.}
+\item{sentiment_vector}{A character vector of sentiment words including prefix ending with a '*'.}
 }
 \value{
 An integer count of matching sentiment words.

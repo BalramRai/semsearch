@@ -9,9 +9,9 @@ summarize_text(word, positive, negative)
 \arguments{
 \item{word}{A character vector containing all the words from the document.}
 
-\item{positive}{A character vector of positive sentiment words or prefixes}
+\item{positive}{A character vector of positive sentiment words or prefixes ending with a '*'}
 
-\item{negative}{A character vector of negative sentiment words or prefixes}
+\item{negative}{A character vector of negative sentiment words or prefixes ending with a '*'}
 }
 \value{
 A list containing:

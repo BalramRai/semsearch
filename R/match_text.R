@@ -5,7 +5,7 @@
 #' Supports words with prefix as a sentiment word.
 #'
 #' @param word_vector A character vector of words from the document.
-#' @param sentiment_vector A character vector of sentiment words including prefix.
+#' @param sentiment_vector A character vector of sentiment words including prefix ending with a '*'.
 #'
 #' @return An integer count of matching sentiment words.
 #'
