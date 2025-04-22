@@ -22,7 +22,7 @@
 #' positive_words <- c("happy*", "joy*", "love")
 #' negative_words <- c("sad*", "hate")
 #'
-#' summarize_sentiment(word_vector, positive_words, negative_words)
+#' summarize_text(word_vector, positive_words, negative_words)
 #'
 #' @export
 summarize_text <- function(word_vector, positive_vector, negative_vector) {
@@ -31,6 +31,8 @@ summarize_text <- function(word_vector, positive_vector, negative_vector) {
 
   negative_count <- match_sentiment_words(word_vector, negative_vector) # counts negative words
 
+  total_words <- length(word_vector) # counts total words
+
   if (negative_count == 0) {
     ratio <- Inf # handles the denominator to be 0
   } else {
@@ -38,6 +40,7 @@ summarize_text <- function(word_vector, positive_vector, negative_vector) {
   }
 
   result <- list(
+    total = total_words,
     positive = positive_count,
     negative = negative_count,
     ratio = ratio

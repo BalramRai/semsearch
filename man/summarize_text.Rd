@@ -33,6 +33,6 @@ word_vector <- c("happy", "happiness", "sad", "sadly", "joyful", "love", "hate")
 positive_words <- c("happy*", "joy*", "love")
 negative_words <- c("sad*", "hate")
 
-summarize_sentiment(word_vector, positive_words, negative_words)
+summarize_text(word_vector, positive_words, negative_words)
 
 }
