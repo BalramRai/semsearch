@@ -10,7 +10,7 @@
 #' @return An integer count of matching sentiment words.
 #'
 #' @examples
-#' match_sentiment_words(c("happy", "joyful", "sad", "sadly"), c("happy*", "sad*"))
+#' match_text(c("happy", "joyful", "sad", "sadly"), c("happy*", "sad*"))
 #'
 #' @export
 match_text <- function(word_vector, sentiment_vector) {

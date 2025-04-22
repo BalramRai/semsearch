@@ -20,6 +20,6 @@ of sentiment words (positive or negative) and counts how many matches occur.
 Supports words with prefix as a sentiment word.
 }
 \examples{
-match_sentiment_words(c("happy", "joyful", "sad", "sadly"), c("happy*", "sad*"))
+match_text(c("happy", "joyful", "sad", "sadly"), c("happy*", "sad*"))
 
 }
