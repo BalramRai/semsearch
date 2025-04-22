@@ -4,14 +4,14 @@
 \alias{summarize_text}
 \title{Summarize Sentiment in a Text}
 \usage{
-summarize_text(word_vector, positive_vector, negative_vector)
+summarize_text(word, positive, negative)
 }
 \arguments{
-\item{word_vector}{A character vector containing all the words from the document.}
+\item{word}{A character vector containing all the words from the document.}
 
-\item{positive_vector}{A character vector of positive sentiment words or prefixes}
+\item{positive}{A character vector of positive sentiment words or prefixes}
 
-\item{negative_vector}{A character vector of negative sentiment words or prefixes}
+\item{negative}{A character vector of negative sentiment words or prefixes}
 }
 \value{
 A list containing:
@@ -29,7 +29,7 @@ It counts how many positive and negative words are present, and
 calculates the ratio of positive to negative words.
 }
 \examples{
-word_vector <- c("happy", "happiness", "sad", "sadly", "joyful", "love", "hate")
+word_vector <- c("happy", "sad", "sadly", "joyful", "love", "hate")
 positive_words <- c("happy*", "joy*", "love")
 negative_words <- c("sad*", "hate")
 

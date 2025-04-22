@@ -18,7 +18,7 @@
 #' }
 #'
 #' @examples
-#' word_vector <- c("happy", "happiness", "sad", "sadly", "joyful", "love", "hate")
+#' word_vector <- c("happy", "sad", "sadly", "joyful", "love", "hate")
 #' positive_words <- c("happy*", "joy*", "love")
 #' negative_words <- c("sad*", "hate")
 #'
